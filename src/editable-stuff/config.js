@@ -8,7 +8,7 @@ const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Margaret",
   middleName: "",
-  lastName: "Rivas",
+  lastName: "Rivas Lutzkanov",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
@@ -20,9 +20,13 @@ const mainBody = {
       url: "https://www.linkedin.com/in/margaret-rivas-2a1aa1188/",
     },
     {
-      image: "fa-envelope",
+      image: "fas fa-envelope",
       url: "mailto:margaretrivaslutz@hotmail.com",
     },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/margaretrivas/",
+    },    
   ],
 };
 
@@ -71,12 +75,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/margaretrivas.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/margaretrivas.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -92,11 +96,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 80 },
+    { name: "Python", value: 85 },
     { name: "SQL", value: 70 },
     { name: "Data Structures", value: 85 },
     { name: "C++", value: 75 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "HTML/CSS", value: 60 },
+    { name: "R", value: 85 },
+    { name: "GitHub", value: 80},
+    { name: "Spanish", value: 100},
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
