@@ -100,9 +100,11 @@ const skills = {
     { name: "SQL", value: 70 },
     { name: "Data Structures", value: 85 },
     { name: "C++", value: 75 },
+    { name: "Linux", value: 75 },
     { name: "HTML/CSS", value: 60 },
     { name: "R", value: 85 },
-    { name: "GitHub", value: 80},
+    { name: "Git", value: 80 },
+    { name: "Jupyter Notebooks", value: 78 },
     { name: "Spanish", value: 100},
   ],
   softSkills: [
