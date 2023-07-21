@@ -63,8 +63,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "margaretrl", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ['COVID-19-Data-Analysis','ShowTrac','flappyKris','margaretrl' ],
 };
 
 // Leadership SECTION
@@ -100,12 +100,10 @@ const skills = {
     { name: "SQL", value: 70 },
     { name: "Data Structures", value: 85 },
     { name: "C++", value: 75 },
-    { name: "Linux", value: 75 },
-    { name: "HTML/CSS", value: 60 },
+    { name: "Cypher - AWS Neptune", value: 65 },
+    { name: "HTML/CSS/JS", value: 80 },
     { name: "R", value: 85 },
     { name: "Git", value: 80 },
-    { name: "Jupyter Notebooks", value: 78 },
-    { name: "Spanish", value: 100},
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -129,20 +127,25 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Technology Intern - Johnson & Johnson',
+      companylogo: require('../assets/img/jnj.png'),
+      date: 'May 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Research Assistant - Florida State University',
+      companylogo: require('../assets/img/fsu.png'),
+      date: 'September 2021 – Present',
     },
-  ]
+    {
+      role: 'Volunteer - Memorial Hospital Miramar',
+      companylogo: require('../assets/img/fsu.png'),
+      date: 'September 2021 – Present',
+    }
+  ],
 }
 
 // Blog SECTION
