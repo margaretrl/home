@@ -17,7 +17,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/margaret-rivas-2a1aa1188/",
+      url: "https://www.linkedin.com/in/margaretrl/",
     },
     {
       image: "fas fa-envelope",
@@ -50,8 +50,8 @@ const about = {
   imageLink: require("../editable-stuff/margaretrivas.png"),
   imageSize: 375,
   message:
-    "My name is Margaret Rivas. I'm currently pursuing a BS in Computer Science and a BS in Computational Biology at Florida State University. I was raised in Venezuela, but I was both born in Florida and have been living here for the past 5 years. I am most passionate about giving back to the community, and my goal is to pursue this passion within the field of technology.  I love to combine my healthcare background with my computer science skills.  ",
-  resume: "https://drive.google.com/file/d/1uwZGP7NaNIploToHI4defTtty7A0xP-8/view?usp=sharing",
+    "My name is Margaret Rivas. I'm currently pursuing a BS in Computer Science and a BS in Computational Biology at Florida State University. I was raised in Venezuela, but I was both born in Florida and have been living here for the past 5 years. I am most passionate about giving back to my community, and my goal is to pursue this passion within the field of technology.  I love to combine my healthcare background with my computer science skills.  ",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -97,12 +97,12 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 85 },
+    { name: "MS Power Tools: PowerBi & Power Apps", value: 80 },
     { name: "SQL", value: 70 },
-    { name: "Data Structures", value: 85 },
     { name: "C++", value: 75 },
-    { name: "Cypher - AWS Neptune", value: 65 },
-    { name: "HTML/CSS/JS", value: 80 },
+    { name: "Cypher - AWS Neptune", value: 70 },
     { name: "R", value: 85 },
+    { name: "HTML/CSS/JS", value: 80 },
     { name: "Git", value: 80 },
   ],
   softSkills: [
@@ -127,24 +127,30 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experiences",
   data: [
     {
       role: 'Technology Intern - Johnson & Johnson',
-      companylogo: require('../assets/img/jnj.png'),
+      companylogo: require('../assets/img/jnj2.png'),
       date: 'May 2022 – Present',
+    },
+    {
+      role: 'Shadowing & Volunteering - Memorial Hospital Miramar',
+      companylogo: require('../assets/img/mem.png'),
+      date: '2019 – 2020',
     },
     {
       role: 'Research Assistant - Florida State University',
       companylogo: require('../assets/img/fsu.png'),
       date: 'September 2021 – Present',
     },
+
     {
-      role: 'Volunteer - Memorial Hospital Miramar',
-      companylogo: require('../assets/img/fsu.png'),
-      date: 'September 2021 – Present',
-    }
+      role: 'Assistant CPR Instructor - HOSA',
+      companylogo: require('../assets/img/hosa.png'),
+      date: '2018 – 2020',
+    },
   ],
 }
 
