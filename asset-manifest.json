@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/home/static/css/main.778eeed7.css",
-    "main.js": "/home/static/js/main.924cb60a.js",
+    "main.js": "/home/static/js/main.ebefc4b5.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
     "static/media/margaretrivas.png": "/home/static/media/margaretrivas.42d5a39e1f023b460ad8.png",
+    "static/media/resume.pdf": "/home/static/media/resume.09e9fa4ccdfdcacbccdc.pdf",
     "static/media/hosa.png": "/home/static/media/hosa.3f81e8ec3ea42837abf1.png",
     "static/media/fsu.png": "/home/static/media/fsu.9f7282086c9c984d184e.png",
     "static/media/jnj2.png": "/home/static/media/jnj2.b16b1297fa807c0de0d2.png",
     "static/media/mem.png": "/home/static/media/mem.270cd347c6388f32b21b.png",
     "index.html": "/home/index.html",
     "main.778eeed7.css.map": "/home/static/css/main.778eeed7.css.map",
-    "main.924cb60a.js.map": "/home/static/js/main.924cb60a.js.map",
+    "main.ebefc4b5.js.map": "/home/static/js/main.ebefc4b5.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.924cb60a.js"
+    "static/js/main.ebefc4b5.js"
   ]
 }
